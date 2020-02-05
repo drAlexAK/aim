@@ -38,6 +38,12 @@ public:
         st_min.push(min(x, st_min.top()));
         st_max.push(max(x, st_max.top()));
     }
+    T size(){
+        return st.size();
+    }
+    bool empty(){
+        return st.empty();
+    }
 };
 
 int main() {
