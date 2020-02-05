@@ -1,2 +1,2 @@
 # aim
-source code xamples
+source code examples
